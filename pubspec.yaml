@@ -17,7 +17,7 @@ dependencies:
   # https://github.com/flutter/plugins/tree/master/packages/shared_preferences
   shared_preferences: 
     git:
-      url: git://github.com/wittech/plugins.git
+      url: https://github.com/wittech/plugins.git
       path: packages/shared_preferences
   # https://github.com/flutter/plugins/tree/master/packages/path_provider
   path_provider: 
