@@ -15,8 +15,12 @@ dependencies:
   # https://github.com/tekartik/synchronized.dart
   synchronized: '>=0.1.0 <3.0.0'
   # https://github.com/flutter/plugins/tree/master/packages/shared_preferences
-  shared_preferences: '>=0.1.1 <3.0.0'
+  shared_preferences: 
+    git:
+      url: git://github.com/wittech/plugins.git
+      path: packages/shared_preferences
   # https://github.com/flutter/plugins/tree/master/packages/path_provider
   path_provider: 
     git:
-      url: git://github.com/wittech/flutter_path_provider.git
+      url: git://github.com/wittech/plugins.git
+      path: packages/path_provider
